@@ -7,9 +7,11 @@ authors = ["yaseen1998 <yasseenkouthe@eng.hu.edu>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 jupyterlab = "^3.2.3"
-pandas = "^1.3.4"
+pandas = "1.2.1"
+wheel = "^0.37.0"
 
 [tool.poetry.dev-dependencies]
+black = {version = "^21.10b0", allow-prereleases = true}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
